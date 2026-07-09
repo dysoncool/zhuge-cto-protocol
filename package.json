@@ -1,6 +1,6 @@
 {
   "name": "zhuge-cto-protocol",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "诸葛↔Dyson 技术任务协作协议 — 一键安装到诸葛外脑",
   "bin": {
     "zhuge-cto-protocol": "./install.sh"

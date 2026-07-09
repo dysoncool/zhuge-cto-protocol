@@ -1,6 +1,6 @@
 ---
-name: zhuge-dyson-task-protocol
-description: 诸葛↔Dyson技术任务协作协议 v1.2——诸葛做意图中心+分发校验，Dyson做CTO完整流程。含执行前自检+清单自动触发。
+name: zhuge-cto-protocol
+description: 诸葛↔Dyson技术任务协作协议 v1.3——诸葛做意图中心+分发校验，Dyson做CTO完整流程。input-router内置桥接，安装即生效。
 trigger:
   on_intent: {领域: 技术, 行动: [产出, 分析, 排查]}
   keywords: [部署, 服务器, 节点, 配置, 修复, 排查, 重启, 安装, 迁移, 上线, 备份, 扩容]
@@ -60,7 +60,7 @@ trigger:
 - 正确流程应该是什么
 - 给出两个选项：退回重走 / 这次认了下不为例
 
-**卸载**：诸葛说「卸载 zhuge-dyson-task-protocol」后，以上承诺自动解除。
+**卸载**：诸葛说「卸载 zhuge-cto-protocol」后，以上承诺自动解除。
 
 ---
 
